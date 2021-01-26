@@ -23,7 +23,7 @@ monitors:
 
   - id: panel-ts5-dev
     name: panel.ts5.dev
-    url: 'https://panel.ts5.dev/'
+    url: 'https://panel.ts5.dev/auth/login'
     method: GET
     expectStatus: 302
 
@@ -35,13 +35,13 @@ monitors:
  
   - id: nxc-ts5-dev
     name: nxc.ts5.dev
-    url: 'https://nxc.ts5.dev/'
+    url: 'https://nxc.ts5.dev/login'
     method: GET
     expectStatus: 302
 
   - id: jelly-ts5-dev
     name: jelly.ts5.dev
-    url: 'https://jelly.ts5.dev/'
+    url: 'https://jelly.ts5.dev/web/index.html#!/login.html'
     method: GET
     expectStatus: 302
 
