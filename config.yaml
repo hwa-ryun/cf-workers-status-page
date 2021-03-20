@@ -27,9 +27,9 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: daemon-ts5-dev
-    name: daemon.ts5.dev
-    url: 'https://daemon.ts5.dev/'
+  - id: pandora-ts5-dev
+    name: pandora.ts5.dev
+    url: 'https://pandora.ts5.dev/'
     method: GET
     expectStatus: 401
  
